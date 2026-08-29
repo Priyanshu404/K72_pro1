@@ -28,9 +28,9 @@ const Agences = () => {
     gsap.to(imageDivRef.current, {
       scrollTrigger: {
         trigger: imageDivRef.current,
-        markers: true,
+        
         start: "top 28%",
-        end: "top -80%",
+        end: "top -90%",
         scrub: true,
         pin: true,
         onUpdate:(elem)=> {
@@ -52,7 +52,7 @@ const Agences = () => {
       <div className="section1">
         <div
           ref={imageDivRef}
-          className="absolute overflow-hidden h-[20vw] rounded-3xl w-[15vw] top-80 left-[30vw]"
+          className="absolute overflow-hidden h-[30vw] rounded-3xl w-[25vw] top-80 left-[30vw]"
         >
           <img
             ref={imageRef}
