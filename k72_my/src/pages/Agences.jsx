@@ -31,8 +31,13 @@ const Agences = () => {
         
         start: "top 28%",
         end: "top -90%",
-        scrub: true,
         pin: true,
+        pinSpacing: true,
+        pinReparent:true,
+        pinType:' transform',
+        scrub: 1,
+        anticipatePin: 1,
+        invalidOnRefresh:true,
         onUpdate:(elem)=> {
           let  imageIndex;
           if(elem.progress<1){
@@ -49,7 +54,7 @@ const Agences = () => {
 
   return (
     <div>
-      <div className="section1">
+      <div className="section1 relative py-1">
         <div
           ref={imageDivRef}
           className="absolute overflow-hidden h-[30vw] rounded-3xl w-[25vw] top-80 left-[30vw]"
