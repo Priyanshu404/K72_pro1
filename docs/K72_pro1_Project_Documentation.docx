@@ -1,0 +1,7 @@
+This file is a placeholder .docx that contains the project documentation in plain text form.
+
+If you need a proper .docx Microsoft Word document, download the Markdown version at docs/K72_pro1_Project_Documentation.md and convert it to .docx using pandoc or your preferred editor (e.g., VS Code + Markdown extension -> Export to DOCX), or ask me to generate a true .docx if you provide a route to upload it.
+
+---
+
+(Full documentation is in docs/K72_pro1_Project_Documentation.md)
